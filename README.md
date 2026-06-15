@@ -1,4 +1,4 @@
-# 🌱 Habit Tracker
+# Habit Tracker
 
 Gestor de hábitos personal construido en Java puro como proyecto de práctica.
 
@@ -19,4 +19,13 @@ Gestor de hábitos personal construido en Java puro como proyecto de práctica.
 - `ui` — menú interactivo en consola
 
 ## Fase 2
-Spring Boot REST API + interfaz web (próximamente)
+
+Spring Boot REST API + interfaz web — completada.
+
+### Lo que se agregó
+- API REST con Spring Boot 3.5
+- Endpoints: GET, POST, DELETE
+- Anotaciones: @RestController, @GetMapping, @PostMapping, @DeleteMapping, @PathVariable, @RequestBody
+- Inyección de dependencias con @Service y @Repository
+- Interfaz web en HTML/CSS/JS consumiendo la API
+- Diseño inspirado en la identidad visual de Pragma
