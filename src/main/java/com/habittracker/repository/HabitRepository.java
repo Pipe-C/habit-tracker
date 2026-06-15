@@ -9,7 +9,11 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class HabitRepository implements Repository<Habit> {
+import org.springframework.stereotype.Repository;
+import com.habittracker.repository.HabitRepositoryInterface;
+
+@Repository
+public class HabitRepository implements HabitRepositoryInterface<Habit> {
 
     private final Map<String, Habit> habits;
 

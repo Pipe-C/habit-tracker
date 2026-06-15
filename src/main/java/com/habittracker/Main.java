@@ -1,10 +1,11 @@
 package com.habittracker;
 
-import com.habittracker.ui.ConsoleMenu;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        ConsoleMenu menu = new ConsoleMenu();
-        menu.start();
+        SpringApplication.run(Main.class, args);
     }
 }

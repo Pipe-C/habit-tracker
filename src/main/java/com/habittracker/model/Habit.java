@@ -7,6 +7,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 import java.time.LocalDate;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = DailyHabit.class, name = "daily"),
+        @JsonSubTypes.Type(value = WeeklyHabit.class, name = "weekly")
+})
 
 // Atributos
 public abstract class Habit {

@@ -7,9 +7,11 @@ import com.habittracker.model.DailyHabit;
 import com.habittracker.model.Habit;
 import com.habittracker.model.WeeklyHabit;
 import com.habittracker.repository.HabitRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class HabitService {
 
     private final HabitRepository repository;
