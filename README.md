@@ -29,3 +29,17 @@ Spring Boot REST API + interfaz web — completada.
 - Inyección de dependencias con @Service y @Repository
 - Interfaz web en HTML/CSS/JS consumiendo la API
 - Diseño inspirado en la identidad visual de Pragma
+
+## Cómo correrlo
+
+### Requisitos
+- JDK 17 o superior
+- Maven
+- IntelliJ IDEA (recomendado)
+
+### Pasos
+1. Clonar el repositorio: `git clone https://github.com/Pipe-C/habit-tracker.git`
+2. Abrir la carpeta en IntelliJ
+3. Esperar a que Maven descargue las dependencias
+4. Correr `Main.java`
+5. Abrir el navegador en `http://localhost:8080`****
